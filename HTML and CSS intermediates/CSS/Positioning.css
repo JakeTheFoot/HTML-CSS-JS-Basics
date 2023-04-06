@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+    height: 200vh;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+}
+
+.box-one {
+    background-color: gold;
+}
+
+.box-two {
+    background-color: tomato;
+    position: fixed;
+    top: 0;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+    z-index: -1;
+}
+
+.box-three {
+    background-color: dodgerblue;
+}
