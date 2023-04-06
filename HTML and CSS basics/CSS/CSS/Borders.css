@@ -1,0 +1,19 @@
+body {
+    margin: 10px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at top left, dodgerblue, yellow, tomato);
+    border: 10px solid royalblue;
+    border-style: dashed dashed;
+    border-width: 10px 20px 10px 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 106, 165);
+    background-color: #e61010;
+    background-color: hsl(127, 77%, 37%);
+}

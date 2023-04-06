@@ -1,0 +1,23 @@
+body {
+    margin: 10px;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+.highlight {
+    color: deeppink;
+}
+
+#products {
+    color: green;
+}
+
+h1#products {
+    color: red;
+}
+
+.featured #products {
+    color: dodgerblue;
+}

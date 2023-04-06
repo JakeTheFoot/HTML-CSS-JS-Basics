@@ -1,0 +1,20 @@
+body {
+    margin: 10px;
+}
+
+#products {
+    margin: 20px;
+}
+
+.products {
+    margin: 50px;
+}
+
+a[target="_blank"] {
+    margin: 100px;
+}
+
+  /**
+   * Can also preface the equals sign to check for certain strings 
+   * contained within the attribute such as "google" from google.com
+   */
