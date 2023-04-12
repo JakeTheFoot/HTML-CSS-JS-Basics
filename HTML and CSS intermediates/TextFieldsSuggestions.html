@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/TextFields.css" />
+    <link rel="stylesheet" href="css/TextFieldsSuggestions.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
@@ -14,8 +14,13 @@
   </head>
   <body>
     <form>
-      <input type="email" />
-      <textarea cols="30" rows="10">Type Here...</textarea>
+      <input type="text" list="countries" autocomplete="off" />
+      <datalist id="countries">
+        <option>Australia</option>
+        <option>Canada</option>
+        <option>India</option>
+        <option>United States</option>
+      </datalist>
     </form>
   </body>
 </html>
